@@ -86,3 +86,16 @@ $
     * `$PATH`
     * `$SHELL`
     * `$PS1`
+
+* Wymień dwie główne linie Uniksów.
+
+    * System V (SysV) - od AT&T Bell Labs
+    * BSD (BSD Unix)
+
+* Czym jest SUS?
+
+    SUS (Single UNIX Specification) to odpowiednik POSIX-a; dokument definiujący jak powinien zachowywać się Unix. Zgodnosć z tym standardem umożliwia posługiwanie się nazwą Unix.
+
+* Jakim poleceniem przygotować łatki (patche)?
+
+    `diff`
