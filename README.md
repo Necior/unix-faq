@@ -99,3 +99,24 @@ $
 * Jakim poleceniem przygotować łatki (patche)?
 
     `diff`
+
+* Jaki jest domyślny program rozruchowy (w Linuksie)?
+
+    GNU GRUB (GRand Unified Bootloader)
+
+* Jakim poleceniem wyświetlić aktualnie podmontowane zasoby (systemy plików)?
+
+    `mount`
+
+* W jakim katalogu szukać plików manuala (manpage'ów)?
+
+    `/usr/share/man/`
+
+* Czym "grzecznie" zabić proces?
+
+    Poleceniem `kill` wysyłając SIGTERM (jest to domyślny sygnał polecenia `kill`).
+
+* Jakim poleceniem można śledzić wywołania funkcji systemowych danego programu?
+
+    `strace`
+
