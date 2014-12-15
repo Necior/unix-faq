@@ -108,6 +108,10 @@ $
 
     `mount`
 
+* W jakim pliku znajdziemy listę aktualnie podmontowanych zasobów (systemów plików)?
+
+    `/etc/mtab`
+
 * W jakim katalogu szukać plików manuala (manpage'ów)?
 
     `/usr/share/man/`
@@ -120,3 +124,10 @@ $
 
     `strace`
 
+* Do czego służy katalog `/opt/`?
+
+    Opcjonalne (dodatkowe) oprogramowanie, które nie jest dostarczane wraz z dystrybucją (tj. nie ma tego oprogramowania w repozytoriach dystrybucji).
+
+* Jakie polecenie jest odpowiednikiem windowsowego `SCANDISK` (obecnie `CHKDSK`)?
+
+    `fsck`
