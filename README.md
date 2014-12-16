@@ -116,6 +116,10 @@ $
 
     `/usr/share/man/`
 
+* Jakim poleceniem można wysłać sygnał do procesu?
+
+    `kill`
+
 * Czym "grzecznie" zabić proces?
 
     Poleceniem `kill` wysyłając SIGTERM (jest to domyślny sygnał polecenia `kill`).
@@ -131,3 +135,33 @@ $
 * Jakie polecenie jest odpowiednikiem windowsowego `SCANDISK` (obecnie `CHKDSK`)?
 
     `fsck`
+
+* Wymień 2 sygnały, których proces nie może zignorować.
+
+    SIGKILL oraz SIGSTOP.
+
+* Jaką funkcją systemową inicjalizuje się proces poprzez plik programu?
+
+    `exec()`
+
+* Jakim poleceniem sprawdzić, z jakiego Uniksa (np. FreeBSD czy Linux) korzystam?
+
+    Za pomocą polecenia `uname`. Przykład:
+    ```
+$ uname
+Linux
+$
+```
+
+* Do czego służy plik `/etc/profile`?
+
+    Jest to plik, który jest wykonywany przez shell po zalogowaniu użytkownika. (Dotyczy `sh` i potomków, m.in. `bash`, `zsh`).
+
+* Jakim poleceniem sprawdzić, ile mamy miejsca na dysku?
+
+    Poleceniem `df`. Przykład (flaga `-h` pokazuje w ludzkich jednostkach ("human readable")):
+    ```
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda6        92G   42G   46G  48% /
+```
