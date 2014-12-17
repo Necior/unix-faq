@@ -165,3 +165,38 @@ $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda6        92G   42G   46G  48% /
 ```
+
+* Czym jest hard link? Czym jest symlink (symbolic link)?
+
+    Hard link to referenacja, która wskazuje na plik (wszystkie takie referencje mają taki sam i-węzęł).
+    
+    Symlink to referencja, która wskazuje na inny plik za pomocą jego nazwy.
+    
+    Przykład, lekko zreformatowany dla jasności przekazu (`-i` wyświetla i-węzły):
+    ```
+$ touch plik
+$ ls -i
+5253482 plik
+$ ln plik hard_link
+$ ls -i
+5253482 hard_link
+5253482 plik
+$ ln -s plik symlink
+$ ls -i
+5253482 hard_link
+5253482 plik
+5253486 symlink -> plik
+```
+
+* Do czego służy polecenie `pwd`?
+
+    `pwd` ("print name of current/working directory") wypisuje nazwę bieżącego katalogu.
+    ```
+$ cd /var/log/
+$ pwd
+/var/log
+```
+
+* Jakim poleceniem wyświetlić informacje z i-węzła?
+
+    `stat`
