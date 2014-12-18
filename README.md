@@ -200,3 +200,11 @@ $ pwd
 * Jakim poleceniem wyświetlić informacje z i-węzła?
 
     `stat`
+
+* Jaki jest domyślny system plików w Linuksach?
+
+    Obecnie najczęściej jest to ext3 lub ext4.
+
+* Jakiego polecenia można użyć, aby stworzyć bootowalnego pendrive'a?
+
+    `dd`
