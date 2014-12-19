@@ -112,6 +112,10 @@ $
 
     `/etc/mtab`
 
+* Które filesystemy są montowane przy starcie systemu?
+
+    Te wylistowane w `/etc/fstab`.
+
 * W jakim katalogu szukać plików manuala (manpage'ów)?
 
     `/usr/share/man/`
@@ -208,3 +212,12 @@ $ pwd
 * Jakiego polecenia można użyć, aby stworzyć bootowalnego pendrive'a?
 
     `dd`
+
+* W jakim pliku jest zapisana grupa główna użytkownika?
+
+    `/etc/passwd`
+
+* Do czego służy grupa główna użytkownika?
+
+    * Jest domyślną grupą pliku stworzonego przez danego użytkownika.
+    * Jest domyślną grupą procesu uruchomionego przez użytkownika.
