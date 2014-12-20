@@ -221,3 +221,11 @@ $ pwd
 
     * Jest domyślną grupą pliku stworzonego przez danego użytkownika.
     * Jest domyślną grupą procesu uruchomionego przez użytkownika.
+
+* W jakim katalogu należy szukać ikon?
+
+    W `/usr/share/`. `/usr/share/pixmaps/` zawiera ikony aplikacji, zaś `/usr/share/icons/` ikony motywów graficznego interfejsu.
+
+* Dla jakiego katalogu często się stosuje sticky bit?
+
+    `/tmp/`
