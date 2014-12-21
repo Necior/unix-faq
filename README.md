@@ -38,7 +38,7 @@ Unix FAQ
 * Wymień 5 narzędzi do obejrzenia pliku tekstowego.
 
     `cat`, `more`, `less`, `head`, `tail`
-* Czym jest _file descriptor_ 2?
+* Czym jest file descriptor 2?
 
     Jest to _stderr_, czyli standardowe wyjście błędów (standardowe wyjście diagnostyczne).
 
