@@ -229,3 +229,15 @@ $ pwd
 * Dla jakiego katalogu często się stosuje sticky bit?
 
     `/tmp/`
+
+* Jakim poleceniem można wylistować otwarte pliki?
+
+    `lsof`
+
+* Jaki dokument jest odpowiednikiem POSIX-a?
+
+    SUS (Single UNIX Specification).
+
+* Jaki znak jest znakiem komentarza w bashu?
+
+    Kratka (`#`).
