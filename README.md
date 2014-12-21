@@ -87,6 +87,14 @@ $
     * `$SHELL`
     * `$PS1`
 
+* Jakie polecenie wyświetli zawartość zmiennej `$SHELL`?
+
+    `echo $SHELL`. Przykład:
+    ```
+$ echo $SHELL
+/bin/bash
+```
+
 * Wymień dwie główne linie Uniksów.
 
     * System V (SysV) - od AT&T Bell Labs
@@ -241,3 +249,12 @@ $ pwd
 * Jaki znak jest znakiem komentarza w bashu?
 
     Kratka (`#`).
+
+* Czym jest PAM?
+
+    PAM (Pluggable Authentication Modules) to system bibliotek, które pozwalają na rozszerzenie możliwości autoryzacji użytkowników.
+    
+    Przykładowo można:
+    
+    * Wymagać (dodatkowo albo zamiast hasła) od użytkownika potwierdzenia zalogowania SMS-em, jak przy przelewach bankowych.
+    * Ograniczyć logowanie użytkowników do godzin dziennych, zezwalając na logowanie w nocy jedynie pracownikom wydziału.
