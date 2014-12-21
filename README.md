@@ -77,7 +77,6 @@ Unix FAQ
     ```
 $ du -sh downloads/
 22G	downloads/
-$ 
 ```
 
 * Wymień najważniejsze zmienne shella.
@@ -162,7 +161,6 @@ $ echo $SHELL
     ```
 $ uname
 Linux
-$
 ```
 
 * Do czego służy plik `/etc/profile`?
