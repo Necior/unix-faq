@@ -256,3 +256,11 @@ $ pwd
     
     * Wymagać (dodatkowo albo zamiast hasła) od użytkownika potwierdzenia zalogowania SMS-em, jak przy przelewach bankowych.
     * Ograniczyć logowanie użytkowników do godzin dziennych, zezwalając na logowanie w nocy jedynie pracownikom wydziału.
+
+* Podaj treść polecenia `chmod` które ustawi prawidłowe uprawnienia do pliku `/etc/passwd`.
+
+    `chmod 644 /etc/passwd`, czyli read+write dla właściciela pliku (tj. dla roota), read dla grupy pliku oraz read dla wszystkich innych.
+
+* W jakim katalogu (dokładnie) należałoby szukać binarki Firefoksa?
+
+    `/usr/bin/`
