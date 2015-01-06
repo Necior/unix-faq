@@ -264,3 +264,25 @@ $ pwd
 * W jakim katalogu (dokładnie) należałoby szukać binarki Firefoksa?
 
     `/usr/bin/`
+
+* Jak się nazywa shell, który powstał w ramach projektu GNU?
+
+    Bash (Bourne Again SHell).
+
+* Jak przekierować standardowe wyjście błędów (tj. stdout), aby je ignorować?
+
+    Należy przekierować je do `/dev/null`. Przykład:
+    ```
+ls /katalog/do/ktorego/nie/mam/dostepu/ 2> /dev/null
+```
+
+* Jaką linią powinien zaczynać się skrypt bashowy?
+
+    Powinien zacząć się właściwym shebangiem, np.
+    ```
+#!/bin/bash
+```
+
+* Wymień kilka Uniksów (lub systemów uniksopodobnych), które nie są Linuksami.
+
+    FreeBSD, NetBSD, OpenBSD, Mac OS X, Plan 9, Solaris.
