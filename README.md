@@ -286,3 +286,39 @@ ls /katalog/do/ktorego/nie/mam/dostepu/ 2> /dev/null
 * Wymień kilka Uniksów (lub systemów uniksopodobnych), które nie są Linuksami.
 
     FreeBSD, NetBSD, OpenBSD, Mac OS X, Plan 9, Solaris.
+
+* Załóżmy, że polecenie `ls -l` wyświetla prawa do jakiegoś pliku `rwxr-xr-x+`. Co oznacza plus na końcu?
+
+    Oznacza, że plik ma ustawione prawa ACL.
+
+* Jakim poleceniem skasujesz w bieżącym katalogu pliki zwykłe starsze niż 14 dni?
+
+    `find . -type f -mtime +14 -exec rm {} \;`
+
+* Jak nazywa się proces, którego zakońćzenie nie zostało obsłużone przez proces rodzica?
+
+    Taki proces nazywamy _zombie_.
+
+* Jakie dwa sygnały (w kolejności) są wysyłane do procesów przy zamykaniu systemu?
+
+    SIGTERM, SIGKILL.
+
+* Jakim poleceniem można sprawdzić liczbę linii w pliku?
+
+    `wc`
+
+* Na którym runlevelu działa typowy serwer SysV?
+
+    Na trzecim (tryb wielu użytkowników z obsługą sieci).
+
+* Jakie polecenie służy do wysyłania wiadomości do sysloga?
+
+    `logger`
+
+* Jakim poleceniem można wyświetlić fragmenty ASCII z pliku binarnego?
+
+    `strings`
+
+* Aby skasować plik '--help', jakie polecenie należy wywołać?
+
+    `rm -- --help`
