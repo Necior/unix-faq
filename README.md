@@ -1,7 +1,7 @@
 Unix FAQ
 ========
 
-Autor: Adrian Sadłocha
+Autor: Adrian Sadłocha  
 URL: https://github.com/Necior/unix-faq
 
 ## Polecenia/pytania
