@@ -1,6 +1,9 @@
 Unix FAQ
 ========
 
+Autor: Adrian Sadłocha
+URL: https://github.com/Necior/unix-faq
+
 ## Polecenia/pytania
 
 * Podaj 8 przykładowych plików w `/etc/`.
@@ -322,3 +325,4 @@ ls /katalog/do/ktorego/nie/mam/dostepu/ 2> /dev/null
 * Aby skasować plik '--help', jakie polecenie należy wywołać?
 
     `rm -- --help`
+
