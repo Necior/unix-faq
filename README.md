@@ -322,7 +322,7 @@ ls /katalog/do/ktorego/nie/mam/dostepu/ 2> /dev/null
 
     `strings`
 
-* Aby skasować plik '--help', jakie polecenie należy wywołać?
+* Aby skasować plik `--help`, jakie polecenie należy wywołać?
 
     `rm -- --help`
 
